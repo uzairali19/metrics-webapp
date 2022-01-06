@@ -14,6 +14,7 @@ describe('Testing', () => {
   beforeEach(() => {
     store.clearActions();
   });
+  n;
   test('Initial State', () => {
     const initialState = [];
     const expectedState = store.getActions();
