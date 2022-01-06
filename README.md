@@ -2,13 +2,15 @@
 
 > This app uses React and Redux, Along with React Router for data manipulation from a couple of web services. It is a SPA with the store object attached to the index.js component used by all of the components to make use and manupulate the data. The app contains data from the Marvel Developer API. Follows Javascript and CSS best practices. It renders information to the user on the main home page and passes the detail page with appropriate ID variable for the respective hero.
 
-## Screenshot
+## Screenshots
 
-`Home Page`
+## HomePage
 ![image](./screenshot.png)
-`Details Page`
+
+## Details Page
 ![image](./screenshot1.png)
-`Search function`
+
+## Search Function
 ![image](./screenshot2.png)
 
 
