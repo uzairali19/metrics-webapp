@@ -88,3 +88,13 @@ body {
   display: flex;
   align-items: center;
 }
+
+.loading-text {
+  animation: fadeIn 0.7s infinite alternate;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+}
