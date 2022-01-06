@@ -18,7 +18,18 @@
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
-    "no-shadow": "off"
+    "no-shadow": "off",
+    "no-unused-vars": "off",
+    "import/prefer-default-export": "off",
+    "object-curly-newline": "off",
+    "react/forbid-prop-types": "off",
+    "indent": "off",
+    "arrow-body-style": "off",
+    "operator-linebreak": "off",
+    "react/jsx-wrap-multilines": "off",
+    "consistent-return": "off",
+    "array-callback-return": "off",
+    "no-else-return": "off"
   },
   "ignorePatterns": ["dist/", "build/"]
 }
