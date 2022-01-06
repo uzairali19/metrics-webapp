@@ -45,9 +45,9 @@ const Header = () => (
   <Box sx={{ flexGrow: 1 }}>
     <AppBar sx={{ backgroundColor: '#121212' }} position="static">
       <Toolbar>
-        <IconButton size="large" edge="start" color="inherit" aria-label="open drawer">
-          <Link to="/">
-            <ArrowBackIosNewIcon />
+        <IconButton size="large" edge="start" aria-label="open drawer">
+          <Link className="arrow-link" to="/">
+            <ArrowBackIosNewIcon sx={{ color: '#fff' }} />
           </Link>
         </IconButton>
         <Typography

@@ -25,6 +25,7 @@ body {
 }
 
 .detail-title {
+  margin-top: 10px;
   font-size: 3rem;
   text-align: center;
   color: #fff;
@@ -81,4 +82,9 @@ body {
   list-style: none;
   padding: 1rem;
   margin: 0;
+}
+
+.arrow-link {
+  display: flex;
+  align-items: center;
 }
