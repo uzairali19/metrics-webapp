@@ -9,6 +9,7 @@ import InputBase from '@mui/material/InputBase';
 import SearchIcon from '@mui/icons-material/Search';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -41,7 +42,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-const Header = () => (
+const Header = ({ set }) => (
   <Box sx={{ flexGrow: 1 }}>
     <AppBar sx={{ backgroundColor: '#121212' }} position="static">
       <Toolbar>
@@ -63,11 +64,23 @@ const Header = () => (
           <SearchIconWrapper>
             <SearchIcon />
           </SearchIconWrapper>
-          <StyledInputBase placeholder="Search…" inputProps={{ 'aria-label': 'search' }} />
+          <StyledInputBase
+            placeholder="Search…"
+            inputProps={{ 'aria-label': 'search' }}
+            onChange={(e) => set(e.target.value)}
+          />
         </Search>
       </Toolbar>
     </AppBar>
   </Box>
 );
+
+Header.propTypes = {
+  set: PropTypes.func,
+};
+
+Header.defaultProps = {
+  set: () => {},
+};
 
 export default Header;

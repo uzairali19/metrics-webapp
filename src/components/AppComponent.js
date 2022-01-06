@@ -1,15 +1,16 @@
-import React from 'react';
-import { Routes, Route, useParams } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import Home from './Home';
 import Details from './Details';
 
 const AppComponent = () => {
+  const [search, setSearch] = useState('');
   return (
     <div>
-      <Header />
+      <Header set={setSearch} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home search={search} />} />
         <Route path="/:id" element={<Details />} />
       </Routes>
     </div>
