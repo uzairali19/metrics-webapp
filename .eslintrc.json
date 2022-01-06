@@ -29,7 +29,8 @@
     "react/jsx-wrap-multilines": "off",
     "consistent-return": "off",
     "array-callback-return": "off",
-    "no-else-return": "off"
+    "no-else-return": "off",
+    "no-console": "off"
   },
   "ignorePatterns": ["dist/", "build/"]
 }
