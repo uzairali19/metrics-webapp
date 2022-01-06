@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component render Marvel Hero Header component 1`] = `
+<div
+  className="App"
+>
+  <div>
+    Loading
+  </div>
+</div>
+`;
+
+exports[`Main details Component render Marvel Hero Detail component 1`] = `
+<div
+  className="App"
+>
+  <div>
+    Loading
+  </div>
+</div>
+`;
+
+exports[`Render App Component Correctly Hero App component 1`] = `
+<div
+  className="App"
+>
+  <div>
+    Loading
+  </div>
+</div>
+`;
+
+exports[`Root Component render Marvel Home component 1`] = `
+<div
+  className="App"
+>
+  <div>
+    Loading
+  </div>
+</div>
+`;
+
+exports[`Search function render Render Search function for home and Header 1`] = `
+<div
+  className="App"
+>
+  <div>
+    Loading
+  </div>
+</div>
+`;
