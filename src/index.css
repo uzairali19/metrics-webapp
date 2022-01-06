@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 * {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Comic Neue', sans-serif;
   overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #121212;
 }
 
 .imgFlex {
@@ -15,4 +22,63 @@
 
 .img-container {
   columns: 2;
+}
+
+.detail-title {
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+}
+
+.detail-description {
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-align: justify;
+  padding: 1rem;
+  color: #fff;
+}
+
+.detail-comics {
+  color: #fff;
+  padding: 1rem;
+}
+
+.detail-events {
+  color: #fff;
+  padding: 1rem;
+}
+
+.detail-stories {
+  color: #fff;
+  padding: 1rem;
+}
+
+.detail-series {
+  color: #fff;
+  padding: 1rem;
+}
+
+.more-detail {
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+  margin-bottom: 50px !important;
+}
+
+.more-detail a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.more-detail li {
+  text-align: left;
+}
+
+.more-detail ul {
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
 }

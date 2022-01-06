@@ -43,7 +43,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 const Header = () => (
   <Box sx={{ flexGrow: 1 }}>
-    <AppBar position="static">
+    <AppBar sx={{ backgroundColor: '#121212' }} position="static">
       <Toolbar>
         <IconButton size="large" edge="start" color="inherit" aria-label="open drawer">
           <Link to="/">
