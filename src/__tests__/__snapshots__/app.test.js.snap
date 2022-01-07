@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component render Marvel Hero Header component 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="MuiBox-root css-ks2ip0"
+  >
+    <span
+      className="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-1exiwx8-MuiCircularProgress-root"
+      role="progressbar"
+      style={
+        Object {
+          "height": 40,
+          "width": 40,
+        }
+      }
+    >
+      <svg
+        className="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+          cx={44}
+          cy={44}
+          fill="none"
+          r={20.2}
+          strokeWidth={3.6}
+          style={Object {}}
+        />
+      </svg>
+    </span>
+    <h2
+      className="MuiTypography-root MuiTypography-h5 loading-text css-1vkkaf1-MuiTypography-root"
+    >
+      Loading ...
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`Main details Component render Marvel Hero Detail component 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="MuiBox-root css-ks2ip0"
+  >
+    <span
+      className="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-1exiwx8-MuiCircularProgress-root"
+      role="progressbar"
+      style={
+        Object {
+          "height": 40,
+          "width": 40,
+        }
+      }
+    >
+      <svg
+        className="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+          cx={44}
+          cy={44}
+          fill="none"
+          r={20.2}
+          strokeWidth={3.6}
+          style={Object {}}
+        />
+      </svg>
+    </span>
+    <h2
+      className="MuiTypography-root MuiTypography-h5 loading-text css-1vkkaf1-MuiTypography-root"
+    >
+      Loading ...
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`Render App Component Correctly Hero App component 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="MuiBox-root css-ks2ip0"
+  >
+    <span
+      className="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-1exiwx8-MuiCircularProgress-root"
+      role="progressbar"
+      style={
+        Object {
+          "height": 40,
+          "width": 40,
+        }
+      }
+    >
+      <svg
+        className="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+          cx={44}
+          cy={44}
+          fill="none"
+          r={20.2}
+          strokeWidth={3.6}
+          style={Object {}}
+        />
+      </svg>
+    </span>
+    <h2
+      className="MuiTypography-root MuiTypography-h5 loading-text css-1vkkaf1-MuiTypography-root"
+    >
+      Loading ...
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`Root Component render Marvel Home component 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="MuiBox-root css-ks2ip0"
+  >
+    <span
+      className="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-1exiwx8-MuiCircularProgress-root"
+      role="progressbar"
+      style={
+        Object {
+          "height": 40,
+          "width": 40,
+        }
+      }
+    >
+      <svg
+        className="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+          cx={44}
+          cy={44}
+          fill="none"
+          r={20.2}
+          strokeWidth={3.6}
+          style={Object {}}
+        />
+      </svg>
+    </span>
+    <h2
+      className="MuiTypography-root MuiTypography-h5 loading-text css-1vkkaf1-MuiTypography-root"
+    >
+      Loading ...
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`Search function render Render Search function for home and Header 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="MuiBox-root css-ks2ip0"
+  >
+    <span
+      className="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-1exiwx8-MuiCircularProgress-root"
+      role="progressbar"
+      style={
+        Object {
+          "height": 40,
+          "width": 40,
+        }
+      }
+    >
+      <svg
+        className="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+          cx={44}
+          cy={44}
+          fill="none"
+          r={20.2}
+          strokeWidth={3.6}
+          style={Object {}}
+        />
+      </svg>
+    </span>
+    <h2
+      className="MuiTypography-root MuiTypography-h5 loading-text css-1vkkaf1-MuiTypography-root"
+    >
+      Loading ...
+    </h2>
+  </div>
+</div>
+`;

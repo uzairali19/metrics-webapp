@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# Marvel Heros
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> This app uses React and Redux, Along with React Router for data manipulation from a couple of web services. It is a SPA with the store object attached to the index.js component used by all of the components to make use and manupulate the data. The app contains data from the Marvel Developer API. Follows Javascript and CSS best practices. It renders information to the user on the main home page and passes the detail page with appropriate ID variable for the respective hero.
 
-## Available Scripts
 
-In the project directory, you can run:
+# Live Demo
 
-### `npm start`
+- [Netlify](https://musing-fermi-c78199.netlify.app/) 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Video Description
 
-### `npm test`
+- [Video](https://www.loom.com/share/b6d850060c98406b975fac8917269278)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+## HomePage
+![image](./screenshot.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Details Page
+![image](./screenshot1.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Search Function
+![image](./screenshot2.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Javascript
+- HTML
+- CSS
+- React
+- React Router Dom
+- Redux
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To get a local copy up and running follow these simple example steps.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Setup
 
-## Learn More
+Run
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# To clone the git repositories
+git clone https://github.com/uzairali19/metrics-webapp.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# To install dependencies
+npm install
 
-### Code Splitting
+# To run development branch
+npm run start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# To build the project
+npm run build
 
-### Analyzing the Bundle Size
+# To run tests on the project
+npm run test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Run tests
 
-### Making a Progressive Web App
+For Linters:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+# To check for CSS errors
+npx stylelint "**/*.{css,scss}"
 
-### Advanced Configuration
+# To check for Javascript errors
+npx eslint .
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Authors
 
-### Deployment
+👤 **Uzair Ali**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- GitHub: [@uzairali19](https://github.com/uzairali19)
+- Twitter: [@uzairali751](https://twitter.com/Uzairali751)
+- LinkedIn: [Uzair Ali](https://www.linkedin.com/in/uzair-ali-9641/)
 
-### `npm run build` fails to minify
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/uzairali19/metrics-webapp/issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Inspiration: [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
